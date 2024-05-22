@@ -1,0 +1,169 @@
+/*
+Theme Name: Russell Child
+Theme URI: https://wordpress.com/themes/russell/
+Description: Russell is a simple blogging theme that supports full-site editing. It comes with a set of minimal templates and design settings that can be manipulated through Global Styles.
+Version: 0.0.26
+Author: Automattic
+Author URI: https://automattic.com/
+Template: blockbase-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: russell
+*/
+
+@font-face {
+    font-family: 'prettywisethin';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-thin-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-thin-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-thin-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-thin-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-thin-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-thin-webfont.svg#prettywisethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywiseextralight';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extralight-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extralight-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extralight-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extralight-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extralight-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extralight-webfont.svg#prettywiseextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywiselight';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-light-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-light-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-light-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-light-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-light-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-light-webfont.svg#prettywiselight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywiseregular';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-regular-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-regular-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-regular-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-regular-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-regular-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-regular-webfont.svg#prettywiseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywisemedium';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-medium-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-medium-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-medium-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-medium-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-medium-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-medium-webfont.svg#prettywisemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywisesemibold';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-semibold-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-semibold-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-semibold-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-semibold-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-semibold-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-semibold-webfont.svg#prettywisesemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywisebold';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-bold-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-bold-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-bold-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-bold-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-bold-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-bold-webfont.svg#prettywisebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywiseextrabold';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extrabold-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extrabold-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extrabold-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extrabold-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extrabold-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-extrabold-webfont.svg#prettywiseextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywiseheavy';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-heavy-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-heavy-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-heavy-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-heavy-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-heavy-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-heavy-webfont.svg#prettywiseheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'prettywiseblack';
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-black-webfont.eot');
+    src: url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-black-webfont.eot#iefix') format('embedded-opentype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-black-webfont.woff2') format('woff2'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-black-webfont.woff') format('woff'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-black-webfont.ttf') format('truetype'),
+         url('https://leggsgetmarried.github.io/leggsgetmarried/wp-content/themes/russell-wpcom-child/fonts/prettywise-black-webfont.svg#prettywiseblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
